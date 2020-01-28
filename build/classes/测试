@@ -1,0 +1,24 @@
+
+
+即使前台页面没有写好也可以进行测试的
+
+Example：
+
+
+删除
+
+
+  通过<url-pattern>/deleteStudentServlet</url-pattern>中的  deleteStudentServlet找到
+        <servlet-class>com.mvc.servlet.deleteStudentServlet</servlet-class>的deleteStudentServlet
+        
+        
+        ？ 参数
+ 
+        http://localhost:8080/student/deleteStudentServlet?id=9
+        
+        
+
+        
+        修改
+        
+       http://localhost:8080/student/updateStudentServlet？id=&name=&age=&gender=
